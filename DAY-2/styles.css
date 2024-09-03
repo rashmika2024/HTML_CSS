@@ -8,3 +8,12 @@ header{
 h1 {
     color: #f01c1c;
 }
+nav {
+    background-color: black;
+    text-align: center;
+}
+ul li {
+    list-style-type:none;
+    color: azure;
+    display: inline-block;
+}
