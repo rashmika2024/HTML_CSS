@@ -15,7 +15,20 @@ ul li {
     list-style-type:none;
     color: azure;
     display: inline-block;
-    padding: 4px 30px;
+    padding: 10px 30px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+.nav-link{
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav-link:hover{
+    background-color: grey;
+    color: #000;
+    border-radius: 1px;
 }
 .card img {
         display: block;
@@ -37,6 +50,7 @@ ul li {
     width:1300px;
     border:10px solid rgb(66, 47, 47);
     padding:10px
+
 }
 .card2 {
     height: 300px;
