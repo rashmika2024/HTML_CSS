@@ -1,0 +1,54 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+}
+header{
+    text-align: center;
+}
+h1 {
+    color: #f01c1c;
+}
+nav {
+    background-color: rgb(192, 153, 153);
+    text-align: center;
+}
+ul li {
+    list-style-type:none;
+    color: azure;
+    display: inline-block;
+    padding: 4px 30px;
+}
+.card img {
+        display: block;
+        margin: 0 auto; /* Center the image horizontally */
+        width: 200%; /* Adjust the width to reduce the size of the image */
+        max-width: 250px; /* Optional: Set a maximum width for better control */
+        border-radius: 10;
+}
+.card{
+    height: 300px;
+    width:1300px;
+    border:10px solid rgb(66, 47, 47);
+    padding:10px
+    
+}
+
+.card1 {
+    height: 300px;
+    width:1300px;
+    border:10px solid rgb(66, 47, 47);
+    padding:10px
+}
+.card2 {
+    height: 300px;
+    width:1300px;
+    border:10px solid rgb(66, 47, 47);
+    padding:10px
+    
+}
+    .card3 {
+    height: 300px;
+    width:1300px;
+    border:10px solid rgb(66, 47, 47);
+    padding:10px
+    }
+
