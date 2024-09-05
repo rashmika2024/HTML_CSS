@@ -1,14 +1,14 @@
 body {
-    font-family:'Times New Roman', Times, serif ;
+    font-family:'Times New Roman', Times, serif ; 
 }
 header{
     text-align: center;
 }
-h1 {
-    color: #0c0c0c;
+h1  {
+    color: #0f0e0efd;
 }
 nav {
-    background-color: rgb(192, 153, 153);
+    background-color: rgb(15, 12, 12);
     text-align: center;
 }
 ul li {
@@ -92,7 +92,7 @@ footer{
     text-align: center;
 }
 .card-title {
-    color: #0033cc;
+    color: #1344c0;
     font-size: 16px;
     font-weight: bold;
     padding-bottom: 10px;
@@ -100,4 +100,28 @@ footer{
 .card-description {
     font-size: 14px;
     color: #333;
+}
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+.hero:hover {
+    background-color: #0056b3;
+}
+.header
+{
+    background-color: #636262;
+    background-image: url('Computer_science_education.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
 }
