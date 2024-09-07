@@ -125,3 +125,45 @@ footer{
     text-align: center;
     padding: 50px 20px;
 }
+.hex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.hex {
+    width: 150px;
+    height: 86.6px; /* Hex height is 1.732 * side length / 2 */
+    background-color:gainsboro;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    cursor: pointer;
+    padding:15px
+
+}
+
+/* .hex.active {
+    background-color: yellow; /* Highlighted hexagon 
+} */
+
+.hex:hover {
+    background-color:yellow;
+}
+
+.hex-content {
+    width: 100%;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+}
+#hex1{
+    margin-top: 60px;
+    margin-bottom: -30px;
+}
