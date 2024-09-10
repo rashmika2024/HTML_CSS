@@ -11,6 +11,12 @@ nav {
     background-color: rgb(15, 12, 12);
     text-align: center;
 }
+button{
+    background-color: rgb(80, 80, 223);
+    padding: 10px;
+    border-radius: 5px;
+
+}
 ul li {
     list-style-type:none;
     color: azure;
@@ -148,11 +154,6 @@ footer{
     padding:15px
 
 }
-
-/* .hex.active {
-    background-color: yellow; /* Highlighted hexagon 
-} */
-
 .hex:hover {
     background-color:yellow;
 }
