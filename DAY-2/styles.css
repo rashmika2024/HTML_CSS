@@ -19,6 +19,7 @@ ul li {
 }
 nav ul li a {
     text-decoration: none;
+    color: white;
 }
 .nav-link{
     padding: 10px 20px;
@@ -40,7 +41,7 @@ nav ul li a {
 .card{
     height: 300px;
     width:1300px;
-    border:10px solid rgb(66, 47, 47);
+    border:10px solid rgb(187, 186, 186);
     padding:10px
     
 }
@@ -48,21 +49,21 @@ nav ul li a {
 .card1 {
     height: 300px;
     width:1300px;
-    border:10px solid rgb(66, 47, 47);
+    border:10px solid rgb(187, 186, 186);
     padding:10px
 
 }
 .card2 {
     height: 300px;
     width:1300px;
-    border:10px solid rgb(66, 47, 47);
+    border:10px solid rgb(187, 186, 186);
     padding:10px
     
 }
 .card3 {
     height: 300px;
     width:1300px;
-    border:10px solid rgb(66, 47, 47);
+    border:10px solid rgb(187, 186, 186);
     padding:10px
 }
 footer{
@@ -166,4 +167,31 @@ footer{
 #hex1{
     margin-top: 60px;
     margin-bottom: -30px;
+}
+h3 {
+    color: #0040df;
+}
+
+.icons {
+    width: 2px;
+    height: 2px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+footer {
+    border: 10px solid gainsboro;
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer img:hover {
+    transform: scale(1.5);
 }
