@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family:'Times New Roman', Times, serif ; 
 }
 header{
@@ -39,9 +39,9 @@ nav ul li a {
 }    
 .card img {
         display: block;
-        margin: 0 auto; /* Center the image horizontally */
-        width: 200%; /* Adjust the width to reduce the size of the image */
-        max-width: 250px; /* Optional: Set a maximum width for better control */
+        margin: 0 auto; 
+        width: 200%; 
+        max-width: 250px; 
         border-radius: 10;
 }
 .card{
@@ -142,7 +142,7 @@ footer{
 
 .hex {
     width: 150px;
-    height: 86.6px; /* Hex height is 1.732 * side length / 2 */
+    height: 86.6px; 
     background-color:gainsboro;
     position: relative;
     text-align: center;
@@ -195,4 +195,358 @@ footer {
 
 footer img:hover {
     transform: scale(1.5);
+}
+ */
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #221f1f;
+    background-image: url('Computer_science_education.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header h2, .header h5 {
+    margin: 10px 0;
+}
+
+.header button {
+    background-color: rgb(80, 80, 223);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: rgb(60, 60, 180);
+}
+
+/* Navigation Styles */
+nav {
+    background-color: rgb(15, 12, 12);
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: grey;
+    color: #000;
+    border-radius: 1px;
+}
+
+/* Card Styles */
+.card, .card1, .card2, .card3 {
+    border: 10px solid rgb(187, 186, 186);
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 1300px;
+    box-sizing: border-box;
+}
+
+/* Curriculum Cards */
+.curriculum-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.curriculum-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: calc(33.333% - 20px); /* Adjust for spacing */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-title {
+    color: #1344c0;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Hexagon Styles */
+.hex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.hex {
+    width: 150px;
+    height: 86.6px; 
+    background-color: gainsboro;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    cursor: pointer;
+    padding: 15px;
+}
+
+.hex:hover {
+    background-color: yellow;
+}
+
+.hex-content {
+    width: 100%;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h3 {
+    color: #0040df;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top: 10px solid gainsboro;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h2 {
+        font-size: 1.5em;
+    }
+
+    .header h5 {
+        font-size: 1em;
+    }
+
+    .header button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    .card, .card1, .card2, .card3 {
+        width: 90%;
+    }
+
+    .curriculum-card {
+        width: calc(50% - 20px); /* Adjust for spacing */
+    }
+
+    nav ul li {
+        padding: 10px 20px;
+    }
+
+    .hex {
+        width: 120px;
+        height: 69px;
+    }
+
+    .curriculum-card {
+        width: calc(50% - 10px); /* Adjust for spacing */
+    }
+
+    .footer img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h2 {
+        font-size: 1.2em;
+    }
+
+    .header h5 {
+        font-size: 0.9em;
+    }
+
+    .header button {
+        padding: 6px 12px;
+        font-size: 0.8em;
+    }
+
+    .card, .card1, .card2, .card3 {
+        width: 100%; /* Full width on small screens */
+    }
+
+    .curriculum-card {
+        width: 100%; /* Full width on small screens */
+    }
+
+    nav ul li {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .hex {
+        width: 100px;
+        height: 57.7px;
+    }
+
+    footer img {
+        width: 25px;
+        height: 25px;
+    }
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    /* Full viewport height */
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    animation: slideAnimation 15s infinite;
+}
+
+.slide1 {
+    flex: 1 0 100%;
+    /* background-image: linear-gradient(rgba(82, 78, 78, 0.842)); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.815),rgba(6, 2, 2, 0.838)),url('IMAGE\ MSIT.jfif');
+    background: rgba(227, 219, 219, 0.5);
+    background-color: #252323;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide2 {
+    flex: 1 0 100%;
+    background-image: url('msitlogo.png');
+    background: rgba(227, 219, 219, 0.5);
+    background-color: #252323;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide3 {
+    flex: 1 0 100%;
+    background-image: url('grad.jfif');
+    background: rgba(90, 89, 89, 0.5);
+    background-color: #252323;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+/* Animation */
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-100%);
+    }
+
+    66% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
